@@ -22,7 +22,7 @@ $logado = $_SESSION['email'];
 
 	$connect = mysqli_connect($host,$user,$password,$database);
 	
-	$sql = "SELECT * FROM markers WHERE 1 ORDER BY price";
+	$sql = "SELECT * FROM marker WHERE 1 ORDER BY price";
 	
 	$resultado = mysqli_query($connect,$sql);
 ?>
@@ -80,13 +80,14 @@ $logado = $_SESSION['email'];
   	<div id="pesquisa">
 		<input id="botaoVoltarRota" type="image" src="patati.PNG" onclick="voltarRota()" width="48" height="48">
 		<h1>POSTOS</h1>
+		<!--
   		<div id="barra-pesquisa">
   			<center>
   				<input type="search" name="busca-posto" placeholder="Digite o nome do Posto ou a Rua">
 				<button id="botaoPesquisar" type="submit" name="enviar-busca">Pesquisar</button>
   			</center>
   		</div>
-  		
+  		-->
   	 <br>
   		<div class="w3-responsive">
 	<!--Criação da table apresentando todos os postos em ordem de preço-->
@@ -127,22 +128,29 @@ $logado = $_SESSION['email'];
 	/* Selecionando qual a bandeira do Posto e atribuindo sua imagem adequadamente */
 		var customImage = 
 		{
-			Ipiranga: 
+			IPIRANGA: 
 			{
 				url:'Imagens/marker-ipiranga2.PNG'
 			},
-			Eso: 
+			MEGAPETRO: 
 			{
 				url:'Imagens/marker-esso.PNG'
 			},
-			Shell: 
+			RAIZEN: 
 			{
 				url:'Imagens/marker-shell.PNG'
 			},
-			Br: 
+			
+			PETROBRAS_DISTRIBUIDORA_SA: 
 			{
 				url:'Imagens/marker-br.PNG'
+			},
+			
+			BANDEIRA_BRANCA: 
+			{
+				url:'Imagens/sembandeira.PNG'
 			}
+			
 		};
 		
 		/* Seta centro do mapa para o Centro de Porto Alegre */

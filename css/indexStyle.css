@@ -1,7 +1,7 @@
 #map 
 {
 	margin-top: 30px;
-    width:55%;
+    width:50%;
 	height: 91%;
     float:right;
 }
@@ -37,8 +37,8 @@
 {
 	background-color: #003366;
     margin-left:45px;
-    width:35%;
-	height: 470px;
+    width:40%;
+	height: 550px;
     float:left;
 	position: absolute;
 }
@@ -57,7 +57,7 @@ thead
 {
 	background-color: #003366;
     margin-left:45px;
-    width:35%;
+    width:40%;
 	max-height: 76%;
     float:left;
 	visibility: hidden;
@@ -102,7 +102,7 @@ hr
 {
 	border-top: 2px solid #8c8b8b;
 }
-  	  
+/*
 #barra-pesquisa input
  {
     width: 75%;
@@ -118,7 +118,7 @@ hr
     margin-top:20px;
     margin-bottom: 20px;
 }
-
+*/
 html, body 
 {
 	background-color: #003366;

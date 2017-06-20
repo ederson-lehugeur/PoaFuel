@@ -14,7 +14,7 @@ if (!$connection) {
 }
 
 // Select all the rows in the markers table
-$query = "SELECT * FROM markers WHERE 1";
+$query = "SELECT * FROM marker WHERE 1";
 $result = mysqli_query($connection,$query);
 if (!$result) {
   die('Invalid query: ' . mysqli_error());
@@ -28,12 +28,12 @@ while ($row = @mysqli_fetch_assoc($result)){
   $node = $doc->createElement("marker");
   $newnode = $parnode->appendChild($node);
 
-  $newnode->setAttribute("name", $row['name']);
-  $newnode->setAttribute("address", $row['address']);
-  $newnode->setAttribute("lat", $row['lat']);
-  $newnode->setAttribute("lng", $row['lng']);
-  $newnode->setAttribute("type", $row['type']);
-  $newnode->setAttribute("price", $row['price']);
+  	  $newnode->setAttribute("name", utf8_encode($row['name']));
+	  $newnode->setAttribute("address", utf8_encode($row['address']));
+	  $newnode->setAttribute("lat", utf8_encode($row['lat']));
+	  $newnode->setAttribute("lng", utf8_encode($row['lng']));
+	  $newnode->setAttribute("type", utf8_encode($row['type']));
+	  $newnode->setAttribute("price", utf8_encode($row['price']));
 }
 
 echo $doc->saveXML();
