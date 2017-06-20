@@ -1,0 +1,72 @@
+#logo
+{
+	margin-top: 3%;
+	width: 30%;
+	height: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	background:url('../Imagens/logo.PNG');
+	background-position: 30px 0px;
+}
+
+#formulario
+{
+	margin-left: 30%;
+	width: 40%;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #ffffff;
+}
+
+#header
+{
+	height: 80px;
+	background-color: #ffffff;
+}
+
+#header h1
+{
+	font-size: 30px;
+	color: grey;
+	padding: 20px;
+}
+
+#conteudo
+{
+	height: 350px;
+	background: lightgrey;
+	text-align: center;
+}
+
+#footer
+{
+	background-color: #ffffff;
+	height: 60px;
+	text-align: center;
+}
+
+#footer p
+{
+	margin-top: 30px;
+
+}
+
+.botao
+{
+	width:40%;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.w3-input
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body
+{
+	background:url('../Imagens/background-login2.JPG');
+}

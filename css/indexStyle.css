@@ -1,0 +1,241 @@
+#map 
+{
+	margin-top: 30px;
+    width:55%;
+	height: 91%;
+    float:right;
+}
+
+#sair
+{
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+}
+
+#sair a
+{
+	float: right;
+	margin-right: 30px;
+}
+
+#logo
+{
+    width:20%;
+	margin-top:30px;
+    margin-left:130px;
+	position: static;
+}
+
+#logo img
+{
+	margin-left: 20%;
+}
+
+#pesquisa
+{
+	background-color: #003366;
+    margin-left:45px;
+    width:35%;
+	height: 470px;
+    float:left;
+	position: absolute;
+}
+
+#pesquisa td
+{
+	width: 33%;
+}
+
+thead
+{
+	text-align: center;
+}
+
+#trajeto-texto
+{
+	background-color: #003366;
+    margin-left:45px;
+    width:35%;
+	max-height: 76%;
+    float:left;
+	visibility: hidden;
+	position: static;
+}
+
+.adp
+{
+	width: 100%;
+	height: 440px;
+	overflow: auto;
+	background-color: white;
+	text-align: center;
+}
+
+.botao
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#pesquisa h1
+{
+	margin-left: 80px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+#trajeto-texto h1
+{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+hr
+{
+	border-top: 2px solid #8c8b8b;
+}
+  	  
+#barra-pesquisa input
+ {
+    width: 75%;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+  		
+  	  
+#barra-pesquisa
+{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+html, body 
+{
+	background-color: #003366;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+	  
+#teste	
+{
+	width: 250px;
+	text-align: center;
+}
+
+#teste p
+{
+	font-size: 13px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#teste text
+{
+	font-weight: bold;
+	color: green;
+	font-size: 13px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#teste h1
+{
+	text-align: center;
+	color: white;
+	background-color: #48b5e9;
+	border-radius: 2px 2px 0 0;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#teste button
+{
+	display: inline;
+	width: 45%;
+}
+
+#botaoVoltar
+{
+	margin-bottom: 30px;
+}
+
+#botaoVoltarPostos
+{
+	position: relative;
+	float:left;
+}
+
+#botaoVoltarRota
+{
+	float:right;
+	border-radius: 3px;
+}
+
+#botaoPesquisar
+{
+	width: 22%;
+	border-radius: 5px;
+}
+
+.w3-responsive
+{
+	width: 100%;
+	height: 75%;
+}
+
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
+{
+
+    background-color: transparent !important;
+    box-shadow: none !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div
+{
+	box-shadow: none !important;
+    background-color: #ffffff !important; 
+}
+
+
+.gm-style > div:first-child > div + div > div:last-child > div > div:last-child
+{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+.gm-style-iw
+{
+	width: auto !important;
+	background-color: #ffffff;
+    top: 22px !important;
+    left: 22px !important;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
