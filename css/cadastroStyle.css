@@ -5,8 +5,9 @@
 	height: 90px;
 	margin-right: auto;
 	margin-left: auto;
-	background:url('../Imagens/logo.PNG');
+	background:url('../imagens/logo.PNG');
 	background-position: 30px 0px;
+	background-repeat: no-repeat;
 }
 
 #formulario
@@ -68,5 +69,5 @@
 
 body
 {
-	background:url('../Imagens/background-login2.JPG');
+	background:url('../imagens/background-login2.JPG');
 }
